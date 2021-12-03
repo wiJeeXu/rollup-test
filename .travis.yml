@@ -1,7 +1,6 @@
 language: node_js
 node_js:
-  - stable
-
+  - node
 install:
   - npm install
 script:
@@ -11,3 +10,5 @@ deploy:
   skip_cleanup: true
   email: '1243087518@qq.com'
   api_key: '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'
+  on:
+    tags: true
