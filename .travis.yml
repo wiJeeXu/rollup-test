@@ -6,3 +6,5 @@ deploy:
   provider: npm
   email: '1243087518@qq.com'
   api_key: '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'
+  on:
+    all_branches: true
